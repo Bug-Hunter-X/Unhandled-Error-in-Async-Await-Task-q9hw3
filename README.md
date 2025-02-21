@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Swift's async/await error handling when used inside a Task. The bug.swift file contains code that uses a do-catch block within a Task to handle errors. However, this approach is flawed because it may not catch all potential errors.  The bugSolution.swift file provides a robust solution.
